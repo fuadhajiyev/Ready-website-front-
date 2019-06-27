@@ -128,7 +128,9 @@ ul li {
     height: 42vw;
     background-image: url('../img/usa-flag.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 #main-bg {
     position: absolute;
