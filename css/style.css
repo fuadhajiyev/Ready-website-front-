@@ -1,0 +1,863 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    text-transform: capitalize; 
+}
+
+header {
+
+    position: sticky;
+    top: 0;
+    height: 7vw;
+    background-color: white;
+    width: 100%;
+    z-index: 5;
+}
+
+.logo {
+    width: 6vw;
+    height: 6vw;
+}
+
+.logoM4 {
+    font-size: 1.4vw;
+    font-weight: 700;
+}
+
+.logoM4:hover {
+    color: #ED4367;
+}
+
+.log {
+    height: 7vw;
+    display: flex;
+    align-items: center;
+    margin-left: 3vw;
+}
+
+ul li {
+    display: block;
+}
+
+.nav li {
+    padding: 1vw 2vw 1vw 2vw;
+}
+
+.nav2 {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 2px 13px -2px rgba(0, 0, 0, 0.28);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.2s ease-out;
+}
+
+.nav li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    margin-top: 1vw;
+}
+
+.nav a:hover {
+    color: #ED4367;
+}
+
+
+.nav3 {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 2px 13px -2px rgba(0, 0, 0, 0.28);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.2s ease-out;
+}
+
+.nav {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 7vw;
+}
+
+.nav a {
+    color: black;
+    font-size: 1.1vw;
+    font-weight: 500;
+}
+
+.btn-1 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 7vw;
+    margin-right: 4vw;
+}
+
+.btn {
+    width: 8.5vw;
+    height: 3vw;
+    background-color: #255085;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: .4vw;
+    font-size: 1vw;
+    transition: background-color .4s;
+}
+
+.btn:hover {
+    background-color: white;
+    border: .2vw solid #255085;
+    color: #255085;
+}
+
+/*  Header -------End */
+
+/* --------------Start Cover----------- */
+
+.main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 42vw;
+    background-image: url('../img/usa-flag.jpg');
+    background-repeat: no-repeat;
+}
+
+#main-bg {
+    position: absolute;
+    width: 100%;
+    height: 42vw;
+    background-color: rgb(54, 64, 76);
+    opacity: 0.5;
+}
+
+.main .main-content {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main h1 {
+    font-size: 3vw;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+}
+
+.main h4 {
+    font-size: 1vw;
+    font-weight: 400;
+    padding: 2vw;
+    text-align: center;
+    color: white;
+}
+
+.main p {
+
+    font-size: 1vw;
+    text-align: center;
+    color: white;
+    margin: 0 21vw;
+}
+
+.vote-btn {
+    display: flex;
+    margin-top: 5vh;
+    justify-content: center;
+}
+
+.vote {
+    width: 8.5vw;
+    height: 3vw;
+    background-color: #ED4367;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    font-size: 1vw;
+    transition: background-color 0.3s;
+}
+
+.vote:hover {
+    background-color: transparent;
+    border: 2px solid #ED4367;
+}
+
+/* --------------body end----------- */
+
+
+/* ------------- card menu start------------ */
+
+.boxes {
+    display: flex;
+    padding: 3vw 0;
+    justify-content: center;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 21vw;
+    padding: 3vw;
+}
+
+.box1 a {
+    font-size: 1.3vw;
+    font-weight: 500;
+    margin-bottom: 12px;
+    color: #36404C;
+    display: block;
+    transition: color 0.3s;
+}
+
+.box1:hover a {
+    color: #ED4367;
+}
+
+.box1:hover .link-icon {
+    color: white;
+    background-color: #ED4367;
+    border: none;
+}
+
+
+
+.link-icon {
+    font-size: 1vw;
+    color: #36404C;
+    border: .1vw solid #36404c;
+    border-radius: 100%;
+    font-weight: 100;
+    padding: .1vw .5vw 0 .6vw;
+    transition: background-color 0.3s;
+}
+
+.liner {
+    width: 1.5vw;
+    height: 3px;
+    background: #ED4367;
+    margin-bottom: 1.5rem;
+}
+
+
+.box1 p {
+    font-size: 1vw;
+    margin-bottom: 1vw;
+}
+
+.card {
+  
+    font-size: 5vw;
+    color: #ED4367;
+    padding-bottom: 2vw;
+}
+
+/*---------------------  card menu end -------------------*/
+
+/* ----------------------video arena ---------------------- */
+
+.video {
+    width: 100vw;
+    height: 36.9vw;
+    margin: 3vw 0vw;
+}
+
+.video-info {
+    background-color: #F5F5F7;
+    width: 100vw;
+    height: 36.9vw;
+    margin: 3vw 0vw;
+    padding: 1vw 0 0 4vw;
+}
+
+.event-btn {
+    padding-bottom: 10vw;
+}
+
+.video-info p {
+    color: #767676;
+    font-size: 1vw;
+    padding-bottom: 1vw;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#text2 {
+    margin-right: 15vw;
+}
+
+.video-info h1 {
+    font-size: 3vw;
+    padding-bottom: .9vw;
+    color: #36404C;
+
+}
+
+.video-info .liner {
+    margin-bottom: 3vw;
+}
+
+#text {
+    padding: 1.1vw 0;
+}
+
+.time-boxes {
+    display: flex;
+    padding-bottom: 2vw;
+}
+
+.count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 9vw;
+    height: 6.8vw;
+    border: .1vw solid rgb(221, 222, 223);
+    margin-right: 1.1vw;
+}
+
+.count p {
+    font-size: 3vw;
+    padding: 0;
+}
+
+.little-txt {
+
+    font-size: 1vw;
+    color: #767676;
+    padding-bottom: 1vw;
+}
+
+.event {
+    width: 9vw;
+    height: 2.4vw;
+    color: white;
+    background-color: #255085;
+    font-size: 1vw;
+    font-weight: 600;
+    border-radius: .1vw;
+    border: none;
+}
+
+.event:hover {
+    background-color: white;
+    border: .1vw solid #255085;
+    color: #255085;
+}
+
+/* ------------------- video arena  END -----------------------*/
+
+
+/*  ------------------ Text Zone Start ------------------------------- */
+.text-zone {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16vw;
+    padding: 3vw 0;
+
+}
+
+.text-zone span {
+
+    font-size: 1vw;
+    color: rgb(74, 81, 90);
+}
+
+.text-zone h1 {
+    font-size: 2.5vw;
+    color: #36404C;
+    padding-bottom: .9vw;
+}
+
+.text-zone p {
+    margin-top: 1.5vw;
+    font-size: 1vw;
+    color: #767676;
+    margin-right: 15vw;
+    padding-bottom: 4vw;
+}
+
+
+/*-------------------- text zone end----------------- */
+
+/* --------------------Start Subscribe btn-----------------*/
+
+
+.all {
+    padding: 60px 0;
+    background-color: #255085;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.make {
+    font-size: 2.2vw;
+    color: white;
+    font-weight: 700;
+}
+
+.subscribe {
+    width: 11.2vw;
+    height: 3vw;
+    background-color: #ED4367;
+    color: white;
+    font-size: 1vw;
+    border-radius: .4vw;
+    border: none;
+    font-weight: 500;
+    transition: background-color 0.4s;
+    margin-right: .5vw;
+
+}
+
+.subscribe:hover {
+    background-color: transparent;
+    color: white;
+    border: .1vw solid #ED4367;
+}
+
+.join {
+    width: 11.2vw;
+    height: 3vw;
+    background-color: #255085;
+    color: white;
+    border-radius: .4vw;
+    border: .1vw solid white;
+    font-size: 1vw;
+    font-weight: 500;
+    transition: background-color 0.4s;
+}
+
+.join:hover {
+
+    background-color: white;
+    color: #36404c;
+}
+
+/* <!-- ------------End Subscribe btn----- --> */
+
+
+/*  Signature PART1 */
+.signutare {
+    padding: 2.5vw 0;
+    color: #888787;
+    font-size: 1vw;
+}
+
+.mod {
+    display: flex;
+}
+
+
+.signutare span {
+    font-size: 1vw;
+    color: #36404C;
+}
+
+.signutare h1 {
+    font-size: 2.4vw;
+    color: #36404C;
+}
+
+.img-signature {
+    width: 11vw;
+    height: 6vw;
+}
+
+.image {
+    padding: 2.5vw 0;
+    margin-left: 3vw;
+}
+
+.image img {
+    width: 30vw;
+    height: 35vw;
+}
+
+/*  PART 2 */
+
+.section {
+    display: flex;
+    flex-direction: column;
+}
+
+.active {
+    width: 12.5vw;
+    height: 3.5vw;
+    background-color: #ED4367;
+    color: white;
+    font-size: 1vw;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+    font-weight: 500;
+    border: none;
+    margin-bottom: 1vw;
+}
+
+.sec {
+    width: 12.5vw;
+    height: 3.5vw;
+    background-color: white;
+    color: #888787;
+    font-size: 1vw;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 1vw;
+    font-weight: 500;
+    border: none;
+    transition: all 0.4s;
+
+}
+
+.sec:hover {
+    background-color: #ED4367;
+    color: white;
+
+}
+
+#post {
+    color: #888787;
+    font-size: 1vw;
+}
+
+/*-------------- Signature Part 2 End--------------- */
+
+/* --------Gallery---------- */
+
+.gallery {
+    display: flex;
+    width: 100%;
+    height: 18vw;
+    margin: 3vw 0;
+    overflow: hidden;
+}
+
+
+.item img {
+    width: 16.5vw;
+    height: 18vw;
+    filter: brightness(40%);
+    transition: filter .7s;
+}
+
+
+.item img:hover {
+    filter: brightness(88%);
+}
+
+/*--------------- Gallery End---------- */
+
+/*-------------- Blog Start-------------- */
+
+.blog {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1vw;
+
+}
+
+.blog-text p {
+
+    font-size: 1vw;
+    font-weight: 600;
+    color: #36404c;
+
+}
+
+.blog-text h1 {
+    font-size: 2.5vw;
+    font-weight: 700;
+    color: #232323;
+}
+
+.blog-btn button {
+    margin-top: 1vw;
+    width: 6vw;
+    height: 5.3vw;
+    border: .1vw solid #232323;
+    color: black;
+    font-size: 1vw;
+    padding: 1.1vw;
+    text-align: center;
+    font-weight: 600;
+    text-transform: none;
+    transition: background-color 0.3s;
+
+}
+
+.blog-btn button:hover {
+    background-color: #36404c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.news {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-1 {
+    position: relative;
+    margin: 2.5vw 0;
+    width: 19.5vw;
+    height: 24vw;
+    box-shadow: 0px 2px 23px -2px rgba(0, 0, 0, 0.28);
+    margin-bottom: 3vw;
+    
+}
+
+.card-1 img {
+    width: 100%;
+    filter: brightness(40%);
+    transition: filter .4s;
+}
+
+.card-1:hover img {
+    filter: brightness(88%);
+}
+
+.card-1:hover h3 {
+    color: #ED4367
+}
+
+
+
+.card-1 h3 {
+    background-color: white;
+    font-size: 1.2vw;
+    color: #36404c;
+    padding: 3.3vw 0;
+    text-align: center;
+    font-weight: 500;
+}
+
+/*--------------- Blog End----------- */
+/*---------- social text Start------------ */
+
+.news-text span,
+p {
+    font-size: 1vw;
+    color: #767676;
+}
+
+.news-text p {
+    margin-top: 3vw;
+}
+
+.news-text h1 {
+    color: #36404C;
+    font-size: 2.5vw;
+    font-weight: 700;
+}
+
+/*---------- social text End------------ */
+/*---------- Social Logo Start------------ */
+.social {
+    width: 100%;
+    height: 14.6vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ED4367;
+    margin: 3.1vw 0;
+}
+
+.social img {
+    width: 7.3vw;
+    height: 6.5vw;
+    filter: brightness(160%);
+    transition: all 0.5s;
+}
+
+.social img:hover {
+    filter: brightness(250%);
+}
+
+/*---------- Social Logo End------------ */
+
+/*Start Map and Form */
+
+.anket iframe {
+    float: right;
+}
+
+.anket h1 {
+    font-size: 2.5vw;
+    color: #36404c;
+}
+
+.anket input {
+    width: 15vw;
+    height: 2.5vw;
+    padding: 8px 19px;
+    margin: .5vw .5vw .5vw 0;
+    border: 2px solid rgb(221, 221, 221);
+    border-radius: 4px;
+
+}
+
+.anket ::placeholder {
+    color: rgb(189, 188, 188);
+    font-size: 1vw;
+}
+
+.anket textarea {
+    border: 2px solid rgb(221, 221, 221);
+    border-radius: 4px;
+    min-width: 22vw;
+    min-height: 12.5vw;
+    max-width: 5vw;
+    max-height: 5vw;
+    overflow: auto;
+}
+
+.anket button {
+    width: 7.5vw;
+    height: 3vw;
+    background-color: #ED4266;
+    color: white;
+    border-radius: .4vw;
+    border: none;
+    font-size: 1vw;
+    font-weight: 500;
+    margin-top: 2.5vw;
+    margin-bottom: 3vw;
+    letter-spacing: 0.8px;
+    transition: background-color 0.5s;
+
+}
+
+.anket button:hover {
+
+    background-color: white;
+    color: #ED4266;
+    border: 2px solid #ED4266;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+
+/* map and form End */
+/*info-box start*/
+
+.info-box {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.info-box-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 19.5vw;
+    height: 18vw;
+    background-color: violet;
+    background-color: #255085;
+    margin-bottom: 3.5vw;
+}
+
+.info-box-1 i {
+    margin: 1.3vw 0;
+    font-size: 3.5vw;
+    transform: rotate(-30deg);
+}
+
+.info-box-1 h1 {
+    font-size: 1.3vw;
+    color: white;
+    margin-bottom: .8vw;
+    font-weight: 600;
+}
+
+.info-box p {
+    color: white;
+    font-size: 1vw;
+}
+
+.edit i {
+    transform: none;
+}
+
+.special {
+
+    background-color: #ED4266;
+}
+
+.special i {
+    transform: none;
+}
+
+/* Footer Start */
+
+
+.footer {
+    height: 6vw;
+    width: 100%;
+    background-color: #36404C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    font-size: 1vw;
+    color: #94989B;
+}
+
+@media screen and (max-width:664px) {
+    .mapx {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 1vw;
+    }
+}
+
+
+
+@media screen and (max-width:1200px) {
+    .mapx {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:874px) {
+    .mapx {
+        height: 250px;
+    }
+
+}
+
+@media screen and (max-width:699px) {
+    .mapx {
+        height: 200px;
+    }
+
+}
+
+@media screen and (max-width:449px) {
+    .mapx {
+        display: none;
+    }
+}

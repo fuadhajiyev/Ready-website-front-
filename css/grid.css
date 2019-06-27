@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.img-responsive{
+    max-width: 100%;
+    height: auto;
+
+}
+
+.container{
+    width:60vw;
+    margin: 0 auto;
+
+}
+.flex{
+
+    display: flex;
+    justify-content: space-between;
+}
+.row{
+    width: 100%;   
+    float: left;
+}
+
+.right{
+    float: right !important;
+}
+
+.col{
+    margin: 10px;
+    float: left;
+}
+
+.col-t{
+    margin: 10px 0px;
+    float: left;
+}
+
+.col-r{
+    margin: 0px 10px;
+    float: left;
+}
+
+.col-1{
+    width: calc(18.33% - 20px);
+}
+
+.col-2{
+    width: calc(16.66% - 20px);
+}
+
+.col-3{
+    width: calc(25% - 20px);
+}
+
+.col-4{  
+    width: calc(33.33% - 20px);   
+}
+
+.col-5{
+    width: calc(41.66 - 20px);   
+}
+
+.col-6{
+    width: calc(50% - 20px);   
+}
+
+.col-7{
+    width: calc(58.33% - 20px);   
+}
+
+.col-8{
+    width: calc(66.66% - 20px);   
+}
+
+.col-9{
+    width: calc(75% - 20px);    
+}
+
+.col-10{
+    width: calc(83.3% - 20px);
+}
+
+.col-11{ 
+    width: calc( 91.66% - 20px);  
+}
+.col-12{
+    width: calc(100% - 20px); 
+   
+}
+
+.col-12a{
+    width: 100%;  
+}
+
+.col-6a{
+    width: 50%;
+}
+
+.col-2a{
+    width: 20%;
+}
+.col-3a{
+    width: 30%;
+}
+.col-8a{
+    width: 80%;
+}
+
